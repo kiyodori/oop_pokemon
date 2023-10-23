@@ -28,8 +28,8 @@ def attack_pikachu(pokemon, hp):
     return hp
 
 def attack_hitokage(pokemon, hp):
-    if hp - 10 > 0:
-        hp = hp - 10
+    if hp - 5 > 0:
+        hp = hp - 5
     else:
         hp = 0
 
